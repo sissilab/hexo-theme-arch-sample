@@ -1,0 +1,4 @@
+[submodule "themes/arch"]
+	path = themes/arch
+	url = https://github.com/sissilab/hexo-theme-arch.git
+	branch = dev
