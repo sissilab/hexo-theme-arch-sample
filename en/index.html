@@ -23,20 +23,28 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
   <!-- hexo site css -->
-  <link rel="stylesheet" href="/hexo-theme-arch-sample/css/main.css" />
+  
+<link rel="stylesheet" href="/hexo-theme-arch-sample/css/main.css">
+
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1886449_67xjft27j1l.css" />
   <!-- 代码块风格 -->
   
 
   <!-- jquery3.3.1 -->
   
-    <script defer type="text/javascript" src="/hexo-theme-arch-sample/plugins/jquery.min.js"></script>
+    
+<script src="/hexo-theme-arch-sample/plugins/jquery.min.js" defer type="text&#x2F;javascript"></script>
+
   
 
   <!-- fancybox -->
   
-    <link href="/hexo-theme-arch-sample/plugins/jquery.fancybox.min.css" rel="stylesheet">
-    <script defer type="text/javascript" src="/hexo-theme-arch-sample/plugins/jquery.fancybox.min.js"></script>
+    
+<link rel="stylesheet" href="/hexo-theme-arch-sample/plugins/jquery.fancybox.min.css">
+
+    
+<script src="/hexo-theme-arch-sample/plugins/jquery.fancybox.min.js" defer type="text&#x2F;javascript"></script>
+
   
   
 <script src="/hexo-theme-arch-sample/js/fancybox.js"></script>
@@ -62,7 +70,7 @@
     <div id="app">
       <div class="header">
   <input type="hidden" id="xr-lang" value="en">
-  <input type="hidden" id="xr-context-path" value="/hexo-theme-arch-sample">
+  <input type="hidden" id="xr-context-path" value="/hexo-theme-arch-sample/">
   <div class="avatar">
     <a href="/hexo-theme-arch-sample/en/">
       <!-- 头像取消懒加载，添加no-lazy -->
@@ -70,29 +78,35 @@
         <img no-lazy src="/hexo-theme-arch-sample/images/avatar.png" alt="">
       
     </a>
-    <div class="nickname"><a href="/hexo-theme-arch-sample/en/">X.R.</a></div>
+    <div class="nickname">
+      <a href="/hexo-theme-arch-sample/en/" title="X.R.">X.R.</a>
+    </div>
   </div>
   <div class="navbar">
     <ul>
       
         <li class="nav-item" data-path="/hexo-theme-arch-sample/en/">
-          <a href="/hexo-theme-arch-sample/en/">Home</a>
+          <a href="/hexo-theme-arch-sample/en/" title="Home">Home</a>
         </li>
       
         <li class="nav-item" data-path="/hexo-theme-arch-sample/en/archives/">
-          <a href="/hexo-theme-arch-sample/en/archives/">Archives</a>
+          <a href="/hexo-theme-arch-sample/en/archives/" title="Archives">Archives</a>
         </li>
       
         <li class="nav-item" data-path="/hexo-theme-arch-sample/en/categories/">
-          <a href="/hexo-theme-arch-sample/en/categories/">Categories</a>
+          <a href="/hexo-theme-arch-sample/en/categories/" title="Categories">Categories</a>
         </li>
       
         <li class="nav-item" data-path="/hexo-theme-arch-sample/en/tags/">
-          <a href="/hexo-theme-arch-sample/en/tags/">Tags</a>
+          <a href="/hexo-theme-arch-sample/en/tags/" title="Tags">Tags</a>
         </li>
       
         <li class="nav-item" data-path="/hexo-theme-arch-sample/en/about/">
-          <a href="/hexo-theme-arch-sample/en/about/">About</a>
+          <a href="/hexo-theme-arch-sample/en/about/" title="About">About</a>
+        </li>
+      
+        <li class="nav-item" data-path="/hexo-theme-arch-sample/en/friends/">
+          <a href="/hexo-theme-arch-sample/en/friends/" title="Friends">Friends</a>
         </li>
       
     </ul>
@@ -196,14 +210,14 @@
     
     <div class="footer-more">
       
-        <a target="_blank" rel="noopener" href="https://github.com/sissilab/hexo-theme-arch/tree/dev">Copyright © 2024 sissilab</a>
+        <a target="_blank" rel="noopener" href="https://github.com/sissilab/hexo-theme-arch">Copyright © 2024 Arch</a>
         
     </div>
   
     
     <div class="footer-more">
       
-        <a target="_blank" rel="noopener" href="https://github.com/sissilab/hexo-theme-arch/tree/dev">Theme by Arch | Powered by Hexo</a>
+        <a target="_blank" rel="noopener" href="https://github.com/sissilab/hexo-theme-arch">Theme by Arch | Powered by Hexo</a>
         
     </div>
   
@@ -410,8 +424,8 @@
 
     var getSearchFile = function() {
       var lang = document.getElementById('xr-lang')?.value || '';
-      var contextPath = document.getElementById('xr-context-path')?.value || '';
-      var path = contextPath + "/" + lang + "/search.xml";
+      var contextPath = document.getElementById('xr-context-path')?.value;
+      var path = (contextPath && contextPath.endsWith('/') ? contextPath : contextPath + '/') + lang + "/search.xml";
       searchFunc(path, 'search-input', 'search-result');
     }
   </script>
@@ -434,6 +448,11 @@
 
 
         
+  
+  
+<script src="/hexo-theme-arch-sample/js/shares.js"></script>
+
+
 
 
         <div class="switchlang-icon tools-bar-item" title="Switch a language">

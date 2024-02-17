@@ -11,7 +11,7 @@
   
   <title>
     
-      archive_a: 2019 
+      Friend 
       
       
       |
@@ -124,37 +124,83 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
 
-<div class="container archives">
-  <div class="post-list">
+  <!-- LaTex Display -->
+
+  
+    <!-- <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script> -->
     
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <a href="/en/archives/2019/2019">2019</a>
-          </h2>
+<script src="/hexo-theme-arch-sample/plugins/mathjax/tex-chtml.js" async type="text&#x2F;javascript"></script>
+
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    
+<script src="/hexo-theme-arch-sample/plugins/clipboard.min.js" async type="text&#x2F;javascript"></script>
+
+  
+  
+<script src="/hexo-theme-arch-sample/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+  <!-- 朋友页 url形式：https://yoursite/friends/ -->
+  <div class="container friend-index">
+    <div class="friend-list">
+      
+        <div class="friend-list-item">
+          <span class="nickname">@ Zcheng</span>
+          <a href="https://zcheng.site/" target="_blank">
+            <span class="site-path">https://zcheng.site/</span>
+          </a>
+          <p class="card-meta">
+            
+          </p>
         </div>
       
-      <div class="post-item" title="Hello Sky">
-        <div class="time-m-d">10-17</div>
-        <div class="title">
-          <a href="/hexo-theme-arch-sample/en/nature/hello-sky/">
-            <span>Hello Sky</span>
+        <div class="friend-list-item">
+          <span class="nickname">@ Hexo</span>
+          <a href="https://hexo.io/" target="_blank">
+            <span class="site-path">https://hexo.io/</span>
           </a>
+          <p class="card-meta">
+            
+          </p>
         </div>
-      </div>
-    
+      
+    </div>
+    <div class="markdown-body">
+      
+    </div>
   </div>
-  <nav class="post-navigation">
-    
-    <span class="page-num">1 / 1</span>
-    
-  </nav>
-</div>
+  
+
+  
+
+  
 
         
 <div class="footer">
@@ -418,6 +464,24 @@
 
         
   
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + friends + '&url=' + https%3A%2F%2Fsissilab.top%2Fhexo-theme-arch-sample%2Fen%2Ffriends%2Findex.html + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://sissilab.top/hexo-theme-arch-sample/en/friends/index.html" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
+  
   
 <script src="/hexo-theme-arch-sample/js/shares.js"></script>
 
@@ -435,11 +499,11 @@
 
   <div class="switchlang-content hidden">
     
-        <a class="lang-item" href="/hexo-theme-arch-sample/en/archives/2019/index.html" title="en">
+        <a class="lang-item" href="/hexo-theme-arch-sample/en/friends/index.html" title="en">
           English
         </a>
     
-        <a class="lang-item" href="/hexo-theme-arch-sample/zh-CN/archives/2019/index.html" title="zh-CN">
+        <a class="lang-item" href="/hexo-theme-arch-sample/zh-CN/friends/index.html" title="zh-CN">
           简体中文
         </a>
     
