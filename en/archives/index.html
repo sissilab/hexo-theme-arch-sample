@@ -20,31 +20,31 @@
   </title>
 
   
-    <link rel="apple-touch-icon" href="/images/favicon.png">
-    <link rel="icon" href="/images/favicon.png">
+    <link rel="apple-touch-icon" href="/hexo-theme-arch-sample/images/favicon.png">
+    <link rel="icon" href="/hexo-theme-arch-sample/images/favicon.png">
   
 
   <!-- Raleway-Font -->
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
   <!-- hexo site css -->
-  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/hexo-theme-arch-sample/css/main.css" />
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1886449_67xjft27j1l.css" />
   <!-- 代码块风格 -->
   
 
   <!-- jquery3.3.1 -->
   
-    <script defer type="text/javascript" src="/plugins/jquery.min.js"></script>
+    <script defer type="text/javascript" src="/hexo-theme-arch-sample/plugins/jquery.min.js"></script>
   
 
   <!-- fancybox -->
   
-    <link href="/plugins/jquery.fancybox.min.css" rel="stylesheet">
-    <script defer type="text/javascript" src="/plugins/jquery.fancybox.min.js"></script>
+    <link href="/hexo-theme-arch-sample/plugins/jquery.fancybox.min.css" rel="stylesheet">
+    <script defer type="text/javascript" src="/hexo-theme-arch-sample/plugins/jquery.fancybox.min.js"></script>
   
   
-<script src="/js/fancybox.js"></script>
+<script src="/hexo-theme-arch-sample/js/fancybox.js"></script>
 
 
   
@@ -66,37 +66,38 @@
   <body>
     <div id="app">
       <div class="header">
-  <input type="hidden" id="langlang" value="en">
+  <input type="hidden" id="xr-lang" value="en">
+  <input type="hidden" id="xr-context-path" value="/hexo-theme-arch-sample">
   <div class="avatar">
-    <a href="/en/">
+    <a href="/hexo-theme-arch-sample/en/">
       <!-- 头像取消懒加载，添加no-lazy -->
       
-        <img no-lazy src="/images/avatar.png" alt="">
+        <img no-lazy src="/hexo-theme-arch-sample/images/avatar.png" alt="">
       
     </a>
-    <div class="nickname"><a href="/en/">X.R.</a></div>
+    <div class="nickname"><a href="/hexo-theme-arch-sample/en/">X.R.</a></div>
   </div>
   <div class="navbar">
     <ul>
       
-        <li class="nav-item" data-path="/en/">
-          <a href="/en/">Home</a>
+        <li class="nav-item" data-path="/hexo-theme-arch-sample/en/">
+          <a href="/hexo-theme-arch-sample/en/">Home</a>
         </li>
       
-        <li class="nav-item" data-path="/en/archives/">
-          <a href="/en/archives/">Archives</a>
+        <li class="nav-item" data-path="/hexo-theme-arch-sample/en/archives/">
+          <a href="/hexo-theme-arch-sample/en/archives/">Archives</a>
         </li>
       
-        <li class="nav-item" data-path="/en/categories/">
-          <a href="/en/categories/">Categories</a>
+        <li class="nav-item" data-path="/hexo-theme-arch-sample/en/categories/">
+          <a href="/hexo-theme-arch-sample/en/categories/">Categories</a>
         </li>
       
-        <li class="nav-item" data-path="/en/tags/">
-          <a href="/en/tags/">Tags</a>
+        <li class="nav-item" data-path="/hexo-theme-arch-sample/en/tags/">
+          <a href="/hexo-theme-arch-sample/en/tags/">Tags</a>
         </li>
       
-        <li class="nav-item" data-path="/en/about/">
-          <a href="/en/about/">About</a>
+        <li class="nav-item" data-path="/hexo-theme-arch-sample/en/about/">
+          <a href="/hexo-theme-arch-sample/en/about/">About</a>
         </li>
       
     </ul>
@@ -104,7 +105,7 @@
 </div>
 
 
-<script src="/js/activeNav.js"></script>
+<script src="/hexo-theme-arch-sample/js/activeNav.js"></script>
 
 
 
@@ -127,7 +128,7 @@
       <div class="post-item" title="Hello World">
         <div class="time-m-d">10-17</div>
         <div class="title">
-          <a href="/en/hello-world/">
+          <a href="/hexo-theme-arch-sample/en/hello-world/">
             <span>Hello World</span>
           </a>
         </div>
@@ -143,7 +144,7 @@
       <div class="post-item" title="Hello Cloud">
         <div class="time-m-d">10-17</div>
         <div class="title">
-          <a href="/en/nature/hello-clould/">
+          <a href="/hexo-theme-arch-sample/en/nature/hello-clould/">
             <span>Hello Cloud</span>
           </a>
         </div>
@@ -152,7 +153,7 @@
       <div class="post-item" title="Hello Rain">
         <div class="time-m-d">10-17</div>
         <div class="title">
-          <a href="/en/nature/hello-rain/">
+          <a href="/hexo-theme-arch-sample/en/nature/hello-rain/">
             <span>Hello Rain</span>
           </a>
         </div>
@@ -168,7 +169,7 @@
       <div class="post-item" title="Hello Sky">
         <div class="time-m-d">10-17</div>
         <div class="title">
-          <a href="/en/nature/hello-sky/">
+          <a href="/hexo-theme-arch-sample/en/nature/hello-sky/">
             <span>Hello Sky</span>
           </a>
         </div>
@@ -229,7 +230,7 @@
 </div>
 
 
-<script src="/js/backtotop.js"></script>
+<script src="/hexo-theme-arch-sample/js/backtotop.js"></script>
 
 
 
@@ -418,8 +419,9 @@
     }
 
     var getSearchFile = function() {
-      var lang = document.getElementById('langlang')?.value || '';
-      var path = "/" + lang + "/search.xml";
+      var lang = document.getElementById('xr-lang')?.value || '';
+      var contextPath = document.getElementById('xr-context-path')?.value || '';
+      var path = contextPath + "/" + lang + "/search.xml";
       searchFunc(path, 'search-input', 'search-result');
     }
   </script>
@@ -435,7 +437,7 @@
   </div>
 
   
-<script src="/js/colorscheme.js"></script>
+<script src="/hexo-theme-arch-sample/js/colorscheme.js"></script>
 
 
 
@@ -455,11 +457,11 @@
 
   <div class="switchlang-content hidden">
     
-        <a class="lang-item" href="/en/archives/index.html" title="en">
+        <a class="lang-item" href="/hexo-theme-arch-sample/en/archives/index.html" title="en">
           English
         </a>
     
-        <a class="lang-item" href="/zh-CN/archives/index.html" title="zh-CN">
+        <a class="lang-item" href="/hexo-theme-arch-sample/zh-CN/archives/index.html" title="zh-CN">
           简体中文
         </a>
     
@@ -467,7 +469,7 @@
 </div>
 
 
-<script src="/js/switchlang.js"></script>
+<script src="/hexo-theme-arch-sample/js/switchlang.js"></script>
 
 
       </div>
