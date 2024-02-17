@@ -600,34 +600,6 @@ hexo-fs@^4.1.1:
     graceful-fs "^4.2.10"
     hexo-util "^2.7.0"
 
-hexo-generator-archive@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/hexo-generator-archive/-/hexo-generator-archive-2.0.0.tgz"
-  integrity sha512-KikJk7dGFbtNHOgqtLFGf5T/S8n1paGp+Gy0KfVDz+HKYhGbXOouyiZkmc3O9KrYt6ja14rmkMhq7KKGtvfehw==
-  dependencies:
-    hexo-pagination "3.0.0"
-
-hexo-generator-category@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/hexo-generator-category/-/hexo-generator-category-2.0.0.tgz"
-  integrity sha512-9OduRBf3WeRDa4BR0kAfRjOVHur7v3fm0NKAwbjUiqULigAdNZVZPO3cHKW2MlBbl/lI5PuWdhQ9zZ99CCCAgQ==
-  dependencies:
-    hexo-pagination "3.0.0"
-
-hexo-generator-index@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/hexo-generator-index/-/hexo-generator-index-3.0.0.tgz"
-  integrity sha512-83AuNN4cWdLVi//3ugR8E3kR6rrOwhXZt+hOCm1IjtIGj353/GlrtpMHpqZHU5kqipzj4miy9dweVdukXglVWw==
-  dependencies:
-    hexo-pagination "3.0.0"
-
-hexo-generator-tag@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/hexo-generator-tag/-/hexo-generator-tag-2.0.0.tgz"
-  integrity sha512-1px/hF3veEohWDN8jjzchQhaiz+uOStUvvMaBJC9vWOlALh30UFcapL8IrvAwwJZjFRVA+WqGgDRqoQ8+yaaFw==
-  dependencies:
-    hexo-pagination "3.0.0"
-
 hexo-i18n@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/hexo-i18n/-/hexo-i18n-2.0.0.tgz"
@@ -642,7 +614,7 @@ hexo-log@^4.0.1:
   dependencies:
     picocolors "^1.0.0"
 
-hexo-pagination@3.0.0:
+hexo-pagination@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/hexo-pagination/-/hexo-pagination-3.0.0.tgz"
   integrity sha512-8oo1iozloZo7TojPVYg4IxL3SJKCBdSJ908fTlIxIK7TWJIKdYnQlW31+12DBJ0NhVZA/lZisPObGF08wT8fKw==
@@ -685,11 +657,6 @@ hexo-server@^3.0.0:
     open "^8.0.9"
     picocolors "^1.0.0"
     serve-static "^1.14.1"
-
-hexo-theme-landscape@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/hexo-theme-landscape/-/hexo-theme-landscape-1.0.0.tgz"
-  integrity sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A==
 
 hexo-util@^2.5.0, hexo-util@^2.7.0:
   version "2.7.0"
