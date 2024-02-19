@@ -1,11 +1,9 @@
 ---
 title: about
-date: 2022-12-04 17:11:05
 type: "about"
-categories:
-tags:
+lang: zh-CN
 ---
 
-## About me
+## 关于我
 
-If you got any questions, you can contact me via the following email.
+展示自己吧！

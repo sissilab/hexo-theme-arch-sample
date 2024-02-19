@@ -1,22 +1,22 @@
-# 相关配置说明
-  # favicon: 网站图标
-  # avatar: 主题用户头像与昵称
-  # rss: rss订阅
-  # gtag: Google 分析
-  # comments: 文章评论系统
+# Configuration Instruction:
+  # favicon: website icon
+  # avatar: User avatar and nickname in the theme
+  # rss: RSS feed
+  # gtag: Google Analytics
+  # comments: Article commenting system
     # gitalk
     # disqus
-  # navbar: 主题页面导航栏
-  # catalog: 文章目录
-  # prevnext: 文章末尾的上一页与下一页
-  # friends: 友链
-  # footer: 页脚信息
-  # search: 文章搜索
-  # colorSwitch: 深/浅配色切换
-  # postShare: 文章分享
-  # codeBlock: 代码块配置
+  # navbar: Theme page navigation bar
+  # catalog: Article table of contents
+  # prevnext: Previous and next page at the end of the article
+  # friends: Friends' links
+  # footer: Footer information
+  # search: Article search
+  # colorSwitch: Dark/light color scheme switch
+  # postShare: Article sharing
+  # codeBlock: Code block configuration
 
-# enable: 是否开启相应功能，可选true || false
+# enable: Whether to enable the corresponding feature, optional true or false
 
 # 网站图标
 favicon:
@@ -44,7 +44,7 @@ comments:
   # 目前仅支持gitalk, valine, disqus评论，选择喜欢的一种开启即可
 
   gitalk:
-    # https://github.com/gitalk/gitalk#usage查看官方教程
+    # https://github.com/gitalk/gitalk#usage 查看官方教程
     enable: false
     clientID:
     clientSecret:
@@ -104,6 +104,11 @@ navbar:
     enable: true
     path: /about/
     key: about
+  -
+    name: Friends
+    enable: true
+    path: /friends/
+    key: friends
 
 # 文章目录
 catalog:
@@ -118,18 +123,18 @@ friends:
   # nickname: 昵称
   # site: 地址
   # meta: 描述
-  # -
-  #   nickname: Zcheng
-  #   site: https://zcheng.site/
-  #   meta:
-  # -
-  #   nickname: Hexo
-  #   site: https://hexo.io/
-  #   meta:
+  -
+    nickname: Zcheng
+    site: https://zcheng.site/
+    meta:
+  -
+    nickname: Hexo
+    site: https://hexo.io/
+    meta:
 
 # 页脚信息
 footer:
-  #social: 社交方式
+  # social: 社交方式
   social:
     # name: 名称
     # icon: 图标，目前仅支持IconFont部分图标
@@ -160,12 +165,12 @@ footer:
     #   name: weibo
     #   icon: weibo
     #   path:
+    # -
     #   # rss需安装 hexo-generator-feed 插件
     #   # 具体参照https://github.com/hexojs/hexo-generator-feed
-#    -
-#      name: rss
-#      icon: rss
-#      path: /atom.xml
+    #   name: rss
+    #   icon: rss
+    #   path: /atom.xml
 
   # more: 更多页脚信息
   more:
@@ -173,11 +178,11 @@ footer:
     # 一般用来显示根据各种场景需要切换的文本，如时间年份
     # 如：{thisYear} 会被替换为今年年份
     -
-      name: Copyright © {thisYear} sissilab
-      path: https://github.com/sissilab/hexo-theme-arch/tree/dev
+      name: Copyright © {thisYear} Arch
+      path: https://github.com/sissilab/hexo-theme-arch
     -
       name: Theme by Arch | Powered by Hexo
-      path: https://github.com/sissilab/hexo-theme-arch/tree/dev
+      path: https://github.com/sissilab/hexo-theme-arch
 
   # 浏览量统计
   # http://busuanzi.ibruce.info/
@@ -212,11 +217,11 @@ colorSwitch:
 
 # 文章分享
 postShare:
-  enable: false
+  enable: true
   twitter:
-    enable: false
+    enable: true
   facebook:
-    enable: false
+    enable: true
 
 # 代码块配置
 codeBlock:

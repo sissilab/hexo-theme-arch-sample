@@ -8,14 +8,13 @@ subtitle: ''
 description: ''
 keywords:
 author: X.R.
-# 配置多语言时，默认首页跳转第一个语言所在页
+# Support multiple languages: the default home page redirects to the first language page
 language: [en, zh-CN]
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-#permalink: :year/:month/:day/:title/
+url: https://sissilab.top/hexo-theme-arch-sample
 permalink: :lang/:title/
 permalink_defaults:
 pretty_urls:
@@ -109,8 +108,8 @@ theme: arch
 deploy:
   type: git
   repo:
-    github: ''
-  branch: master
+    github: git@github.com:sissilab/hexo-theme-arch-sample.git
+  branch: gh-pages
 
 ### extra ###
 search:
