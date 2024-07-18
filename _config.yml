@@ -109,11 +109,11 @@ theme: arch
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
-  # type: git
-  # repo:
-  #   github: git@github.com:sissilab/hexo-theme-arch-sample.git
-  # branch: gh-pages
+  #type: ''
+  type: git
+  repo:
+    github: git@github.com:sissilab/hexo-theme-arch-sample.git
+  branch: gh-pages
 
 ### extra ###
 search:
@@ -127,18 +127,19 @@ lazyload:
   loadingImg: # optional eg ./images/loading.gif
   isSPA: false # optional
 
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
-  order_by: -date
-  icon: icon.png
-  autodiscovery: true
-  template:
+# feed:
+#   enable: false
+#   type: atom
+#   path: atom.xml
+#   limit: 20
+#   hub:
+#   content:
+#   content_limit: 140
+#   content_limit_delim: ' '
+#   order_by: -date
+#   icon: icon.png
+#   autodiscovery: true
+#   template:
 
 # for hexo-generator-archive
 archive_generator:
