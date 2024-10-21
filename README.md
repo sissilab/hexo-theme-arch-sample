@@ -6,7 +6,7 @@ A hexo blog sample using theme [hexo-theme-arch](https://github.com/sissilab/hex
 
 ## Install
 
-- Clone this repository: `git clone https://github.com/sissilab/hexo-theme-arch.git --recurse-submodules`
+- Clone this repository: `git clone https://github.com/sissilab/hexo-theme-arch-sample.git --recurse-submodules`
 
 ## Key Config Intro
 
