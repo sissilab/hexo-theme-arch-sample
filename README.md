@@ -4,6 +4,10 @@ A hexo blog sample using theme [hexo-theme-arch](https://github.com/sissilab/hex
 
 - [Sample Blog Preview: sissilab.top/hexo-theme-arch-sample](https://sissilab.top/hexo-theme-arch-sample/)
 
+## Install
+
+- Clone this repository: `git clone https://github.com/sissilab/hexo-theme-arch.git --recurse-submodules`
+
 ## Key Config Intro
 
 1. Support the publication of multiple languages posts. (e.g. `language: [en, zh-CN]` in `_config.yml`)
