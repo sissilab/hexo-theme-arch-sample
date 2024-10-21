@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+    
+    
+    
+    <entry>
+        <title>Java 主方法</title>
+        <link href="/hexo-theme-arch-sample/zh-CN/java-main-method/"/>
+        <url>/hexo-theme-arch-sample/zh-CN/java-main-method/</url>
+        
+        <content type="html"><![CDATA[<p>在 Java 中，<code>main</code> 方法是一个 Java 程序的入口点。当执行 Java 程序时，Java 虚拟机（JVM）首先调用 <code>main</code> 方法。让我们来了解一下 <code>main</code> 方法的一些关键方面。</p><p><code>main</code> 方法具有特定的签名：<code>public static void main(String[] args)</code>。以下是每个部分的含义：</p><ul><li><code>public</code>：表示 <code>main</code> 方法可以从任何地方访问。</li><li><code>static</code>：表示 <code>main</code> 方法属于类本身，而不属于类的特定实例。</li><li><code>void</code>：指定 <code>main</code> 方法不返回任何值。</li><li><code>String[] args</code>：表示传递给 Java 程序的命令行参数。</li></ul><p><code>main</code> 方法的代码是程序逻辑的主要部分。它可以执行各种任务，例如初始化变量、调用方法和控制程序流程。<code>args</code> 参数允许您在需要时访问命令行参数。</p><p>要运行 Java 程序，您需要使用 Java 编译器（<code>javac</code>）将源代码编译成字节码，然后使用 Java 解释器（<code>java</code>）执行它。解释器会定位 <code>main</code> 方法，并从那里开始执行程序。</p><p><code>main</code> 方法对于运行 Java 应用程序至关重要，在命令行程序、独立应用程序甚至与 Spring Boot 等框架结合使用的 Web 应用程序中都发挥着重要作用。</p><p>请记住，Java 程序可以有多个 <code>main</code> 方法，但只有符合上述精确签名（<code>public static void main(String[] args)</code>）的方法将被识别为入口点。</p><p>了解 <code>main</code> 方法对于开始您的 Java 编程之旅和构建可执行的 Java 程序非常重要。</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Java 教程 </category>
+            
+            <category> Java 基础 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Java 基础特性</title>
+        <link href="/hexo-theme-arch-sample/zh-CN/java-basic-features/"/>
+        <url>/hexo-theme-arch-sample/zh-CN/java-basic-features/</url>
+        
+        <content type="html"><![CDATA[<p>Java 是一种流行的编程语言，以其健壮性、可移植性和多功能性而闻名。它提供了一系列基础特性，使其适用于各种应用。让我们来探讨一下 Java 的一些基本特性。</p><h2 id="面向对象编程"><a href="#面向对象编程" class="headerlink" title="面向对象编程"></a>面向对象编程</h2><p>Java 是一种完全面向对象的语言，意味着 Java 中的所有内容都是对象。它支持面向对象编程的关键原则，如封装、继承和多态性。这使开发者能够创建模块化和可重用的代码。</p><h2 id="平台独立性"><a href="#平台独立性" class="headerlink" title="平台独立性"></a>平台独立性</h2><p>Java 的 “一次编写，到处运行” 原则使其能够在不同的平台上运行，无需重新编译。Java 程序会被编译成字节码，可以在安装了 Java 虚拟机（JVM）的任何系统上执行。这使得 Java 具有高度的可移植性。</p><h2 id="内存管理"><a href="#内存管理" class="headerlink" title="内存管理"></a>内存管理</h2><p>Java 提供了通过垃圾回收机制进行自动内存管理的功能。开发者不需要手动分配和释放内存，Java 会负责处理。这有助于防止内存泄漏，使 Java 程序更可靠和安全。</p><h2 id="异常处理"><a href="#异常处理" class="headerlink" title="异常处理"></a>异常处理</h2><p>Java 内置了对异常处理的支持，允许开发者处理和恢复意外错误或异常情况。这有助于编写健壮和容错的代码。Java 的异常处理机制包括 try-catch 块和创建自定义异常的能力。</p><h2 id="丰富的标准库"><a href="#丰富的标准库" class="headerlink" title="丰富的标准库"></a>丰富的标准库</h2><p>Java 提供了一个全面的标准库，提供了各种类和 API，用于常见任务。它包括用于输入&#x2F;输出操作、网络、数据结构、多线程等的实用程序。丰富的标准库通过提供可直接使用的组件简化了开发过程。</p><p>Java 的基础特性使其在各个领域广泛应用，包括 Web 开发、移动应用开发、企业软件和科学应用等。其简单性、可扩展性和庞大的社区支持使其成为全球开发者的首选。</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Java 教程 </category>
+            
+            <category> Java 基础 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 特性 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>你好</title>
+        <link href="/hexo-theme-arch-sample/zh-CN/hello/"/>
+        <url>/hexo-theme-arch-sample/zh-CN/hello/</url>
+        
+        <content type="html"><![CDATA[<p>你好~</p>]]></content>
+        
+        
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>你好 Kotlin</title>
+        <link href="/hexo-theme-arch-sample/zh-CN/hello-kotlin/"/>
+        <url>/hexo-theme-arch-sample/zh-CN/hello-kotlin/</url>
+        
+        <content type="html"><![CDATA[<p>Kotlin 是一种现代的编程语言，运行于 Java 虚拟机（JVM），可用于各种类型的开发，包括 Android 应用开发、服务器端开发等等。它结合了面向对象和函数式编程的优点，成为一种强大而富有表现力的语言。</p><p>Kotlin 的一个关键优势是其简洁性。它减少了样板代码，并提供了许多语言特性，使开发者能够编写干净而简洁的代码。Kotlin 具有表达力强的语法和强大的类型推断，易于阅读和理解，提高了生产力，并降低了引入错误的可能性。</p><p>Kotlin 与 Java 兼容，这意味着现有的 Java 代码可以与 Kotlin 代码无缝集成，Kotlin 代码可以调用 Java 代码，反之亦然。这使得逐步采用 Kotlin 在现有项目中或在同时使用两种语言的项目中进行协作变得容易。</p><p>对于 Android 开发，Kotlin 已成为许多开发者的首选语言。它与现有的 Java 库和框架具有良好的兼容性，其现代特性改善了开发者的体验，并使代码更加健壮。Kotlin 的空安全特性有助于防止空指针异常，这是 Java 中常见的错误来源之一。</p><p>除了 Android 开发，Kotlin 还可以与 Ktor 或 Spring Boot 等框架一起用于服务器端开发。它为构建可伸缩和高性能的后端系统提供了出色的支持。其简洁的语法和强大的语言特性使得编码成为一种愉快的体验。</p><p>总之，Kotlin 是一种现代而多用途的编程语言，集合了面向对象和函数式编程的优点。它的简洁性、与 Java 的互操作性和强大的工具支持使其成为 Android 应用开发和服务器端开发的热门选择。无论您是经验丰富的开发者还是刚刚入门，Kotlin 都能为您提供高效且愉快的编程体验。</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Kotlin 教程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Kotlin </tag>
+            
+            <tag> 你好 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>你好 Ruby</title>
+        <link href="/hexo-theme-arch-sample/zh-CN/hello-ruby/"/>
+        <url>/hexo-theme-arch-sample/zh-CN/hello-ruby/</url>
+        
+        <content type="html"><![CDATA[<p>Ruby 是一种动态、面向对象的编程语言，以其简洁和高效而闻名。它的设计目标是提高开发者的幸福感，并因其优雅的语法和富有表达力的代码而受到广泛欢迎。</p><p>Ruby 的一个关键特点是强调可读性和易用性。它具有清晰而直观的语法，使开发者能够编写简洁而富有表达力的代码。Ruby 的设计理念强调人性化的代码，使编程成为一种享受。</p><p>Ruby 是一种多用途的编程语言，可用于各种应用。它常用于 Web 开发，得益于像 Ruby on Rails 这样的框架，提供了强大的工具和规范，用于构建强大而可扩展的 Web 应用程序。Ruby 也用于脚本编写、自动化、数据分析和系统管理任务。</p><p>除了核心功能之外，Ruby 还拥有丰富的库和 gem，扩展了它的功能。这些库涵盖了各个领域，包括数据库集成、测试框架、API 开发等等。Ruby 社区充满活力，积极维护和贡献这些库，确保了一个繁荣的生态系统。</p><p>学习 Ruby 为您提供了参与令人兴奋的项目和与热情社区合作的机会。它鼓励良好的代码实践、测试和模块化设计。Ruby 注重开发者的幸福感和生产力，使其成为初学者和经验丰富的程序员的理想选择。</p><p>总之，Ruby 是一种强大而富有表达力的编程语言，重视开发者的幸福感。其简洁性、可读性和丰富的生态系统使其成为 Web 开发和其他各种应用的宝贵工具。如果您正在寻找一种将优雅与高效结合在一起的编程语言，Ruby 是一个绝佳选择。</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Ruby 教程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Ruby </tag>
+            
+            <tag> 你好 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>你好 Shell</title>
+        <link href="/hexo-theme-arch-sample/zh-CN/hello-shell/"/>
+        <url>/hexo-theme-arch-sample/zh-CN/hello-shell/</url>
+        
+        <content type="html"><![CDATA[<p>Shell 脚本是一种强大而多用途的工具，用于自动化任务和与操作系统进行交互。Shell 是一个命令行界面，允许用户执行命令、运行脚本和高效地管理系统。</p><p>Shell 脚本使用像 Bash 这样的脚本语言编写，提供了各种功能和特性。通过 Shell 脚本，您可以自动化重复的任务、执行系统管理任务、处理文本文件等等。</p><p>Shell 脚本的一个优点是它能够组合命令并创建复杂的工作流程。您可以使用条件语句、循环和变量来控制执行流程并动态处理数据。这使得 Shell 脚本适用于需要灵活性和定制性的任务。</p><p>Shell 脚本在系统管理、DevOps 和软件开发中得到广泛应用。管理员可以编写脚本来自动化系统配置、备份和部署。开发者可以使用 Shell 脚本来构建构建流水线、运行测试以及在软件开发生命周期中执行各种任务。</p><p>除了实际应用之外，学习 Shell 脚本还能加深对操作系统工作原理的理解。它允许您以较低的层次与系统交互，有效地操作文件和目录，并管理进程。</p><p>总之，Shell 脚本是一种用于自动化任务和管理系统的强大工具。无论您是系统管理员、开发者还是高级用户，学习 Shell 脚本能够极大地提高您在命令行界面工作时的生产力和效率。</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Shell 教程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Shell </tag>
+            
+            <tag> 你好 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>你好 C++</title>
+        <link href="/hexo-theme-arch-sample/zh-CN/hello-cpp/"/>
+        <url>/hexo-theme-arch-sample/zh-CN/hello-cpp/</url>
+        
+        <content type="html"><![CDATA[<p>C++ 是一种强大且多用途的编程语言，提供了高性能和低级控制，并保持了高层抽象。它广泛应用于系统编程、游戏开发、嵌入式系统和科学计算等各个领域。</p><p>C++ 的一个关键特性是其支持面向对象编程（OOP）。它允许开发者将代码组织成可重用的类和对象，有助于实现模块化和可维护的代码。C++ 还提供了继承、多态和封装等特性，使开发者能够构建复杂的软件系统。</p><p>C++ 以其高效性和性能而闻名。它通过指针实现直接的内存操作，并提供对系统资源的低级控制。这使得它适用于需要精细控制和高性能的应用，如实时系统和图形密集型游戏。</p><p>C++ 的另一个显著特点是其丰富的标准库，提供了各种功能，包括输入&#x2F;输出操作、容器、算法和并发支持。此外，C++ 拥有庞大而活跃的社区，为开源库和框架做出了贡献，进一步丰富了其生态系统。</p><p>尽管 C++ 功能强大且复杂，但对于初学者来说学习 C++ 可能具有挑战性。然而，掌握 C++ 为开发者打开了许多机会，为理解计算机系统和其他编程语言提供了坚实的基础。</p><p>总之，C++ 是一种多用途的编程语言，结合了高性能、低级控制和面向对象编程。它在各个领域广泛应用，并提供了丰富的库和框架生态系统。学习 C++ 对于希望构建高效、健壮软件系统的开发者来说是一次有价值的旅程。</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> C++ 教程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> C++ </tag>
+            
+            <tag> 你好 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>你好 Python</title>
+        <link href="/hexo-theme-arch-sample/zh-CN/hello-python/"/>
+        <url>/hexo-theme-arch-sample/zh-CN/hello-python/</url>
+        
+        <content type="html"><![CDATA[<p>Python 是一种通用且广泛使用的编程语言，以其简洁易读而闻名。由于其易用性和强大的功能，它在开发者中获得了广泛的认可和使用。无论您是初学者还是有经验的程序员，Python 都提供了友好且直观的语法，使编写代码变得轻而易举。</p><p>Python 的一大优势是其丰富的标准库，它提供了各种模块和函数，用于处理各种任务。从文件和数据库操作到Web开发和科学计算，Python 提供了全面的工具和库，简化了开发过程，加快了编码速度。</p><p>Python 的灵活性使其可以在各个领域中使用，包括Web开发、数据分析、机器学习和自动化。它拥有诸多优秀的框架和库，如Django、Flask、NumPy、Pandas和TensorFlow，进一步增强了其功能，使开发者能够构建复杂的应用程序和解决方案。</p><p>Python 的另一个值得注意的特点是其强大的社区支持。Python 拥有庞大而活跃的开发者社区，他们为开源项目做出贡献，提供帮助和指导，并通过论坛、教程和在线资源分享他们的知识。这个充满活力的社区确保 Python 与最新的趋势和最佳实践保持同步。</p><p>总之，Python 是一种强大且多用途的编程语言，提供了简洁易读、丰富的库和框架生态系统。无论您是初学者还是有经验的开发者，Python 都提供了构建各种应用程序和解决复杂问题所需的工具和资源。</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Python 教程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> 你好 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>你好 TypeScript</title>
+        <link href="/hexo-theme-arch-sample/zh-CN/hello-typescript/"/>
+        <url>/hexo-theme-arch-sample/zh-CN/hello-typescript/</url>
+        
+        <content type="html"><![CDATA[<p>TypeScript 是 JavaScript 的静态类型超集，可以编译为纯 JavaScript。它添加了可选的静态类型、类、接口等功能，使 JavaScript 变得更加健壮和可扩展。借助 TypeScript，开发者可以在开发过程中捕捉错误并编写更清晰、易于维护的代码。</p><p>TypeScript 的一个关键优势是其类型系统。通过为变量、函数参数和返回值添加类型，TypeScript 帮助发现潜在问题，并提供更好的工具支持，如具有自动完成和代码导航功能的代码编辑器。这减少了错误并提高了开发效率。</p><p>TypeScript 还支持最新的 JavaScript 特性，允许开发者利用语言的进展，同时仍针对较旧的 JavaScript 运行时。它提供了箭头函数、模板字面量、async&#x2F;await 和解构赋值等功能。</p><p>TypeScript 的另一个优点是它与现有 JavaScript 代码库的兼容性。它可以逐步引入到项目中，允许开发者以自己的节奏迁移和重构代码。TypeScript 与流行的框架和库，如 React、Angular 和 Node.js，集成良好，提供了更好的开发体验。</p><p>总之，TypeScript 是一种强大的语言，为 JavaScript 带来了静态类型和其他现代语言特性。它提供了更好的工具支持、改进的代码质量和更平滑的 JavaScript 项目迁移路径。采用 TypeScript 可以带来更健壮、易于维护的代码库。</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> TypeScript 教程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> TypeScript </tag>
+            
+            <tag> 你好 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>你好 CSS</title>
+        <link href="/hexo-theme-arch-sample/zh-CN/hello-css/"/>
+        <url>/hexo-theme-arch-sample/zh-CN/hello-css/</url>
+        
+        <content type="html"><![CDATA[<p>CSS（层叠样式表）是网页开发中的一项基础技术，用于定义网页的视觉呈现效果。它与 HTML 协同工作，用于结构化和样式化内容，赋予网页设计师和开发人员创建视觉吸引力和引人入胜的网站的能力。</p><p>使用 CSS，您可以控制网页的布局、颜色、字体和其他视觉方面。它提供了各种选择器和属性，允许您针对特定元素应用自定义样式。CSS 规则可以内联定义在 HTML 元素中，也可以在独立样式表中或嵌入在 HTML 文档中。</p><p>CSS 的一个关键特性是它能够同时应用样式于多个元素。通过使用类和 ID，您可以创建可重用的样式，并将其应用于网站的不同元素。这有助于保持一致性，并且更容易维护和更新网页的样式。</p><p>CSS 还支持响应式网页设计，使您能够创建适应不同屏幕尺寸和设备的网站。CSS 中的媒体查询允许您根据设备的特性（如屏幕宽度或方向）应用不同的样式。这确保您的网站在桌面电脑、平板电脑和移动设备上都具有良好的外观和功能。</p><p>除了基本样式化外，CSS 还支持高级技术，如动画、过渡和变形。您可以创建元素之间的平滑过渡效果，添加引人注目的动画，并在二维或三维空间中对元素进行变换。这些能力提升了网页的交互性和视觉吸引力。</p><p>CSS 不断发展，新的功能和模块不断添加到规范中。这使得网页设计师和开发人员能够突破 CSS 的可能性边界。了解最新的发展</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> CSS 教程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> CSS </tag>
+            
+            <tag> 你好 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>你好 JavaScript</title>
+        <link href="/hexo-theme-arch-sample/zh-CN/hello-javascript/"/>
+        <url>/hexo-theme-arch-sample/zh-CN/hello-javascript/</url>
+        
+        <content type="html"><![CDATA[<p>JavaScript 是一种动态而多功能的编程语言，对现代 Web 开发起着至关重要的作用。JavaScript 由 Brendan Eich 在 1990 年代中期创建，最初设计用于给网页添加交互性。然而，它已经发展成为一种强大的语言，可用于客户端和服务器端开发。</p><p>JavaScript 的一个重要特点是它可以直接在 Web 浏览器中运行，使开发人员能够创建交互式和动态的网页。使用 JavaScript，您可以操作 HTML 元素、处理用户事件并实时更新内容。这使得 JavaScript 成为创建引人注目的用户界面和提升用户体验的关键工具。</p><p>由于出现了诸如 Node.js 等服务器端 JavaScript 平台，JavaScript 也广泛应用于服务器端开发。借助 Node.js，开发人员可以使用 JavaScript 构建可扩展且高性能的服务器应用程序。这实现了客户端和服务器之间的无缝通信，实现实时数据更新和高效处理用户请求。</p><p>JavaScript 的另一个优势是其庞大的库、框架和工具生态系统。像 React、Angular 和 Vue.js 这样的热门框架为开发人员提供了强大的工具，用于构建复杂的 Web 应用程序。此外，还有许多针对特定任务的库可用，例如数据可视化、动画和表单验证。这个丰富的生态系统使开发人员能够轻松创建强大而功能丰富的应用程序。</p><p>JavaScript 的多功能性不仅限于 Web 开发。借助 React Native 和 Electron 等框架，开发人员可以使用 JavaScript 构建移动应用和桌面应用程序。这种跨平台开发的能力使得代码重用和开发周期加速成为可能，使 JavaScript 成为跨平台开发的有价值的语言。</p><p>总而言之，JavaScript 是一种动态而多功能的编程语言，彻底改变了 Web 开发。它可以在 Web 浏览器中运行，并具有服务器端开发能力，使其成为创建交互式和动态的 Web 应用程序的强大工具。</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> JavaScript 教程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> 你好 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>你好 Java</title>
+        <link href="/hexo-theme-arch-sample/zh-CN/hello-java/"/>
+        <url>/hexo-theme-arch-sample/zh-CN/hello-java/</url>
+        
+        <content type="html"><![CDATA[<p>Java是一种广泛使用的编程语言，已成为现代软件开发的基石。Java于1990年代中期由James Gosling及其在Sun Microsystems的团队创建，旨在设计一种简单、平台无关的语言，可在任何设备上运行。多年来，Java经过了演进和发展，成为世界上最流行的编程语言之一。</p><p>Java的一个关键特点是其“一次编写，到处运行”的原则。Java程序被编译为字节码，可以在安装了Java虚拟机（JVM）的任何设备上执行。这使得Java应用程序可以无缝地在不同的平台上运行，包括台式计算机、移动设备和嵌入式系统。Java的平台无关性使其成为开发跨平台软件的首选语言。</p><p>Java以其稳定性和可靠性而闻名。该语言包含了内置的错误处理和内存管理机制，帮助开发人员编写更少崩溃和内存泄漏的代码。Java的面向对象特性促进了代码的模块化和可重用性，使构建和维护复杂软件系统更容易。此外，Java的广泛标准库为各种任务提供了丰富的工具和框架，例如GUI开发、网络和数据库连接。</p><p>Java的另一个优势是其庞大的生态系统和社区支持。有许多开源库和框架可用于Java，扩展了其功能并简化了常见的开发任务。Java社区充满活力，活跃度很高，开发人员通过论坛、博客和会议分享他们的知识和经验。这些丰富的资源使得开发人员更容易学习Java并找到解决编程问题的方法。</p><p>总之，Java是一种强大而多功能的编程语言，经受住了时间的考验。它的平台无关性、健壮性和庞大的生态系统使其成为开发各种应用的首选语言。无论您是初学者学习编程基础知识，还是经验丰富的开发人员处理复杂系统，Java都提供了您需要的工具和资源，帮助您实现创意。</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Java 教程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 你好 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>你好世界</title>
+        <link href="/hexo-theme-arch-sample/zh-CN/Hello-World/"/>
+        <url>/hexo-theme-arch-sample/zh-CN/Hello-World/</url>
+        
+        <content type="html"><![CDATA[<p>欢迎使用<a href="https://hexo.io/zh-cn/">Hexo</a>！这是你的第一篇文章。查看<a href="https://hexo.io/zh-cn/docs/index.html">文档</a>获取更多信息。如果在使用Hexo时遇到任何问题，你可以在<a href="https://hexo.io/docs/troubleshooting.html">故障排除</a>中找到答案，或者在<a href="https://github.com/hexojs/hexo/issues">GitHub</a>上向我提问。</p><h2 id="快速入门"><a href="#快速入门" class="headerlink" title="快速入门"></a>快速入门</h2><h3 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>更多信息：<a href="https://hexo.io/zh-cn/docs/writing.html">写作</a></p><h3 id="运行服务"><a href="#运行服务" class="headerlink" title="运行服务"></a>运行服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>更多信息：<a href="https://hexo.io/zh-cn/docs/server.html">服务器</a></p><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>更多信息：<a href="https://hexo.io/zh-cn/docs/generating.html">生成文件</a></p><h3 id="部署到远程站点"><a href="#部署到远程站点" class="headerlink" title="部署到远程站点"></a>部署到远程站点</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>更多信息：<a href="https://hexo.io/zh-cn/docs/one-command-deployment.html">一键部署</a></p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Hexo 开始使用 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 介绍 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    
+</search>

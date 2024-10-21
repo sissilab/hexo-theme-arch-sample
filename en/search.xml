@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+    
+    
+    
+    <entry>
+        <title>Java Main Method</title>
+        <link href="/hexo-theme-arch-sample/en/java-main-method/"/>
+        <url>/hexo-theme-arch-sample/en/java-main-method/</url>
+        
+        <content type="html"><![CDATA[<p>In Java, the <code>main</code> method serves as the entry point for a Java program. When a Java program is executed, the Java Virtual Machine (JVM) starts by invoking the <code>main</code> method. Let’s explore some key aspects of the <code>main</code> method.</p><p>The <code>main</code> method has a specific signature: <code>public static void main(String[] args)</code>. Here’s what each part means:</p><ul><li><code>public</code>: It indicates that the <code>main</code> method is accessible from anywhere.</li><li><code>static</code>: It means that the <code>main</code> method belongs to the class itself, not to any specific instance of the class.</li><li><code>void</code>: It specifies that the <code>main</code> method doesn’t return any value.</li><li><code>String[] args</code>: It represents the command-line arguments passed to the Java program.</li></ul><p>The code inside the <code>main</code> method is where the program’s logic resides. It can perform various tasks, such as initializing variables, calling methods, and controlling the program flow. The <code>args</code> parameter allows you to access the command-line arguments if needed.</p><p>To run a Java program, you compile the source code into bytecode using the Java compiler (<code>javac</code>) and then execute it using the Java interpreter (<code>java</code>). The interpreter locates the <code>main</code> method and starts the program execution from there.</p><p>The <code>main</code> method is crucial for running Java applications, and it plays a significant role in command-line programs, standalone applications, and even web applications when combined with frameworks like Spring Boot.</p><p>Remember that a Java program can have multiple <code>main</code> methods, but only the one with the exact signature mentioned above (<code>public static void main(String[] args)</code>) will be recognized as the entry point.</p><p>Understanding the <code>main</code> method is essential for starting your Java programming journey and building executable Java programs.</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Java tutorial </category>
+            
+            <category> Java Base </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Java Basic Features</title>
+        <link href="/hexo-theme-arch-sample/en/java-basic-features/"/>
+        <url>/hexo-theme-arch-sample/en/java-basic-features/</url>
+        
+        <content type="html"><![CDATA[<p>Java is a popular programming language known for its robustness, portability, and versatility. It provides a wide range of basic features that make it suitable for various applications. Let’s explore some of the fundamental features of Java.</p><h2 id="Object-Oriented-Programming"><a href="#Object-Oriented-Programming" class="headerlink" title="Object-Oriented Programming"></a>Object-Oriented Programming</h2><p>Java is a fully object-oriented language, which means everything in Java is an object. It supports key principles of object-oriented programming, such as encapsulation, inheritance, and polymorphism. This allows developers to create modular and reusable code.</p><h2 id="Platform-Independence"><a href="#Platform-Independence" class="headerlink" title="Platform Independence"></a>Platform Independence</h2><p>Java’s “write once, run anywhere” principle enables it to run on different platforms without the need for recompilation. Java programs are compiled into bytecode, which can be executed on any system that has a Java Virtual Machine (JVM) installed. This makes Java highly portable.</p><h2 id="Memory-Management"><a href="#Memory-Management" class="headerlink" title="Memory Management"></a>Memory Management</h2><p>Java provides automatic memory management through its garbage collection mechanism. Developers don’t need to manually allocate and deallocate memory, as Java takes care of it. This helps prevent memory leaks and makes Java programs more reliable and secure.</p><h2 id="Exception-Handling"><a href="#Exception-Handling" class="headerlink" title="Exception Handling"></a>Exception Handling</h2><p>Java has built-in support for exception handling, allowing developers to handle and recover from unexpected errors or exceptional situations. This helps in writing robust and fault-tolerant code. Java’s exception handling mechanism includes try-catch blocks and the ability to create custom exceptions.</p><h2 id="Rich-Standard-Library"><a href="#Rich-Standard-Library" class="headerlink" title="Rich Standard Library"></a>Rich Standard Library</h2><p>Java comes with a comprehensive standard library that provides a wide range of classes and APIs for common tasks. It includes utilities for input&#x2F;output operations, networking, data structures, multithreading, and much more. The rich standard library simplifies development by providing ready-to-use components.</p><p>Java’s basic features contribute to its popularity and widespread use in various domains, including web development, mobile app development, enterprise software, and scientific applications. Its simplicity, scalability, and extensive community support make it a top choice for developers worldwide.</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Java tutorial </category>
+            
+            <category> Java Base </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> Feature </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Hello Java</title>
+        <link href="/hexo-theme-arch-sample/en/hello-java/"/>
+        <url>/hexo-theme-arch-sample/en/hello-java/</url>
+        
+        <content type="html"><![CDATA[<p>Java is a widely used programming language that has become a cornerstone of modern software development. Created by James Gosling and his team at Sun Microsystems in the mid-1990s, Java was designed with the goal of being a simple, platform-independent language that could run on any device. Over the years, Java has evolved and matured, becoming one of the most popular programming languages in the world.</p><p>One of the key features of Java is its “write once, run anywhere” principle. Java programs are compiled into bytecode, which can be executed on any device that has a Java Virtual Machine (JVM) installed. This allows Java applications to run seamlessly on different platforms, including desktop computers, mobile devices, and embedded systems. The platform independence of Java has made it a favored choice for developing cross-platform software.</p><p>Java is known for its robustness and reliability. The language includes built-in error handling and memory management mechanisms, which help developers write code that is less prone to crashes and memory leaks. Java’s object-oriented nature promotes code modularity and reusability, making it easier to build and maintain complex software systems. Additionally, Java’s extensive standard library provides a rich set of tools and frameworks for various tasks, such as GUI development, networking, and database connectivity.</p><p>Another strength of Java is its vast ecosystem and community support. There are numerous open-source libraries and frameworks available for Java, which extend its capabilities and simplify common development tasks. The Java community is vibrant and active, with developers sharing their knowledge and experiences through forums, blogs, and conferences. This wealth of resources makes it easier for developers to learn Java and find solutions to their programming challenges.</p><p>Java is widely used in a variety of domains, including enterprise software development, mobile app development, web application development, and scientific research. Companies such as Google, Amazon, and Netflix rely on Java for their critical systems. The popularity and versatility of Java have contributed to a large demand for Java developers in the job market, making it a valuable skill for aspiring programmers.</p><p>In conclusion, Java is a powerful and versatile programming language that has stood the test of time. Its platform independence, robustness, and vast ecosystem have made it a top choice for developing a wide range of applications. Whether you are a beginner learning the basics of programming or an experienced developer working on complex systems, Java offers the tools and resources you need to bring your ideas to life.</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Java tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hello </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Hello</title>
+        <link href="/hexo-theme-arch-sample/en/hello/"/>
+        <url>/hexo-theme-arch-sample/en/hello/</url>
+        
+        <content type="html"><![CDATA[<p>Hello~</p>]]></content>
+        
+        
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Hello Kotlin</title>
+        <link href="/hexo-theme-arch-sample/en/hello-kotlin/"/>
+        <url>/hexo-theme-arch-sample/en/hello-kotlin/</url>
+        
+        <content type="html"><![CDATA[<p>Kotlin is a modern programming language that runs on the Java Virtual Machine (JVM) and can be used for various types of development, including Android app development, server-side development, and more. It combines the best features of object-oriented and functional programming, making it a powerful and expressive language.</p><p>One of the key advantages of Kotlin is its conciseness. It reduces boilerplate code and provides many language features that enable developers to write clean and concise code. Kotlin’s expressive syntax and powerful type inference make it easy to read and understand, enhancing productivity and reducing the chances of introducing errors.</p><p>Kotlin is interoperable with Java, which means that existing Java code can be seamlessly integrated with Kotlin code, and Kotlin code can call Java code and vice versa. This makes it easy to adopt Kotlin gradually in existing projects or work collaboratively in projects that use both languages.</p><p>For Android development, Kotlin has become the preferred language for many developers. It offers great compatibility with existing Java libraries and frameworks, and its modern features improve developer experience and make code more robust. Kotlin’s null safety feature helps prevent null pointer exceptions, a common source of bugs in Java.</p><p>In addition to Android development, Kotlin can be used for server-side development with frameworks like Ktor or Spring Boot. It provides excellent support for building scalable and performant backend systems. Its concise syntax and powerful language features make it a joy to work with.</p><p>In conclusion, Kotlin is a modern and versatile programming language that brings together the best of object-oriented and functional programming. Its conciseness, Java interoperability, and strong tooling support make it a popular choice for Android app development and server-side development. Whether you’re an experienced developer or just starting, Kotlin offers a productive and enjoyable programming experience.</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Kotlin tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hello </tag>
+            
+            <tag> Kotlin </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Hello Ruby</title>
+        <link href="/hexo-theme-arch-sample/en/hello-ruby/"/>
+        <url>/hexo-theme-arch-sample/en/hello-ruby/</url>
+        
+        <content type="html"><![CDATA[<p>Ruby is a dynamic, object-oriented programming language known for its simplicity and productivity. It was designed to prioritize developer happiness and has gained popularity for its elegant syntax and expressive code.</p><p>One of the key features of Ruby is its focus on readability and ease of use. It has a clean and intuitive syntax that allows developers to write concise and expressive code. Ruby’s design philosophy emphasizes human-friendly code, making it a pleasure to work with.</p><p>Ruby is a versatile language that can be used for a wide range of applications. It is commonly used for web development, thanks to frameworks like Ruby on Rails, which provide powerful tools and conventions for building robust and scalable web applications. Ruby is also used for scripting, automation, data analysis, and system administration tasks.</p><p>In addition to its core features, Ruby has a rich ecosystem of libraries and gems that extend its functionality. These libraries cover various domains, including database integration, testing frameworks, API development, and more. The Ruby community is vibrant and actively maintains and contributes to these libraries, ensuring a thriving ecosystem.</p><p>Learning Ruby opens up opportunities to work on exciting projects and collaborate with a passionate community. It encourages clean code practices, testing, and modular design. Ruby’s emphasis on developer happiness and productivity makes it an excellent choice for both beginners and experienced programmers.</p><p>In conclusion, Ruby is a powerful and expressive programming language that prioritizes developer happiness. Its simplicity, readability, and rich ecosystem make it a valuable tool for web development and various other applications. If you’re looking for a language that combines elegance with productivity, Ruby is a great choice.</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Ruby tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hello </tag>
+            
+            <tag> Ruby </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Hello Shell</title>
+        <link href="/hexo-theme-arch-sample/en/hello-shell/"/>
+        <url>/hexo-theme-arch-sample/en/hello-shell/</url>
+        
+        <content type="html"><![CDATA[<p>Shell scripting is a powerful and versatile tool for automating tasks and interacting with operating systems. The shell is a command-line interface that allows users to execute commands, run scripts, and manage the system efficiently.</p><p>Shell scripts are written in scripting languages such as Bash, which provide a wide range of features and functionalities. With shell scripting, you can automate repetitive tasks, perform system administration tasks, process text files, and much more.</p><p>One of the strengths of shell scripting is its ability to combine commands and create complex workflows. You can use conditionals, loops, and variables to control the flow of execution and handle data dynamically. This makes shell scripting suitable for tasks that require flexibility and customization.</p><p>Shell scripting is widely used in system administration, DevOps, and software development. It allows administrators to write scripts that automate system configurations, backups, and deployments. Developers can use shell scripts to build build pipelines, run tests, and perform various tasks during the software development lifecycle.</p><p>In addition to its practical applications, learning shell scripting provides a deeper understanding of how operating systems work. It allows you to interact with the system at a low level, manipulate files and directories, and manage processes effectively.</p><p>In conclusion, shell scripting is a powerful tool for automating tasks and managing systems. Whether you’re a system administrator, a developer, or a power user, learning shell scripting can greatly enhance your productivity and efficiency in working with command-line interfaces.</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Shell tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hello </tag>
+            
+            <tag> Shell </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Hello C++</title>
+        <link href="/hexo-theme-arch-sample/en/hello-cpp/"/>
+        <url>/hexo-theme-arch-sample/en/hello-cpp/</url>
+        
+        <content type="html"><![CDATA[<p>C++ is a powerful and versatile programming language that offers high performance and low-level control while maintaining a high level of abstraction. It is widely used in various domains, including system programming, game development, embedded systems, and scientific computing.</p><p>One of the key features of C++ is its support for object-oriented programming (OOP). It allows developers to organize code into reusable classes and objects, facilitating modular and maintainable code. C++ also provides features such as inheritance, polymorphism, and encapsulation, which enable developers to build complex software systems.</p><p>C++ is known for its efficiency and performance. It allows direct memory manipulation through pointers and provides low-level control over system resources. This makes it suitable for applications that require fine-grained control and high performance, such as real-time systems and graphics-intensive games.</p><p>Another notable aspect of C++ is its extensive standard library, which provides a wide range of functionality, including input&#x2F;output operations, containers, algorithms, and concurrency support. Additionally, C++ has a large and active community that contributes to open-source libraries and frameworks, further enriching its ecosystem.</p><p>Despite its power and complexity, learning C++ can be challenging for beginners. However, mastering C++ opens up numerous opportunities for developers and provides a strong foundation for understanding computer systems and other programming languages.</p><p>In conclusion, C++ is a versatile language that combines high performance, low-level control, and object-oriented programming. It is widely used in various domains and offers a rich ecosystem of libraries and frameworks. Learning C++ can be a rewarding journey for developers seeking to build efficient and robust software systems.</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> C++ tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hello </tag>
+            
+            <tag> C++ </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Hello Python</title>
+        <link href="/hexo-theme-arch-sample/en/hello-python/"/>
+        <url>/hexo-theme-arch-sample/en/hello-python/</url>
+        
+        <content type="html"><![CDATA[<p>Python is a versatile and widely used programming language known for its simplicity and readability. It has gained immense popularity among developers due to its ease of use and powerful features. Whether you’re a beginner or an experienced programmer, Python offers a friendly and intuitive syntax that makes writing code a breeze.</p><p>One of Python’s strengths is its extensive standard library, which provides a wide range of modules and functions for various tasks. From working with files and databases to web development and scientific computing, Python offers comprehensive tools and libraries that simplify development and speed up the coding process.</p><p>Python’s flexibility allows it to be used in various domains, including web development, data analysis, machine learning, and automation. It has a rich ecosystem of frameworks and libraries such as Django, Flask, NumPy, Pandas, and TensorFlow, which further enhance its capabilities and enable developers to build complex applications and solutions.</p><p>Another noteworthy feature of Python is its strong community support. Python has a large and active community of developers who contribute to open-source projects, offer help and guidance, and share their knowledge through forums, tutorials, and online resources. This vibrant community ensures that Python stays up to date with the latest trends and best practices.</p><p>In conclusion, Python is a powerful and versatile programming language that offers simplicity, readability, and a vast ecosystem of libraries and frameworks. Whether you’re a beginner or an experienced developer, Python provides the tools and resources needed to build a wide range of applications and solve complex problems.</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Python tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hello </tag>
+            
+            <tag> Python </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Hello TypeScript</title>
+        <link href="/hexo-theme-arch-sample/en/hello-typescript/"/>
+        <url>/hexo-theme-arch-sample/en/hello-typescript/</url>
+        
+        <content type="html"><![CDATA[<p>TypeScript is a statically typed superset of JavaScript that compiles to plain JavaScript. It adds optional static types, classes, interfaces, and other features to JavaScript, making it more robust and scalable. With TypeScript, developers can catch errors during the development process and write cleaner and more maintainable code.</p><p>One of the key benefits of TypeScript is its type system. By adding types to variables, function parameters, and return values, TypeScript helps identify potential issues and provides better tooling support, such as code editors with autocompletion and code navigation. This reduces bugs and improves productivity.</p><p>TypeScript also supports the latest JavaScript features, allowing developers to leverage the advancements in the language while still targeting older JavaScript runtimes. It provides features like arrow functions, template literals, async&#x2F;await, and destructuring assignments.</p><p>Another advantage of TypeScript is its compatibility with existing JavaScript codebases. It can be gradually introduced into projects, allowing developers to migrate and refactor code at their own pace. TypeScript integrates well with popular frameworks and libraries like React, Angular, and Node.js, providing enhanced development experiences.</p><p>In conclusion, TypeScript is a powerful language that brings static typing and other modern language features to JavaScript. It offers better tooling, improved code quality, and smoother migration paths for JavaScript projects. Embracing TypeScript can lead to more robust and maintainable codebases.</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> TypeScript tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hello </tag>
+            
+            <tag> TypeScript </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Hello CSS</title>
+        <link href="/hexo-theme-arch-sample/en/hello-css/"/>
+        <url>/hexo-theme-arch-sample/en/hello-css/</url>
+        
+        <content type="html"><![CDATA[<p>CSS (Cascading Style Sheets) is a fundamental technology in web development that defines the visual presentation of a web page. It works together with HTML to structure and style the content, giving web designers and developers the power to create visually appealing and engaging websites.</p><p>With CSS, you can control the layout, colors, fonts, and other visual aspects of a web page. It provides a wide range of selectors and properties that allow you to target specific elements and apply custom styles. CSS rules can be defined inline within HTML elements, in separate style sheets, or embedded within the HTML document.</p><p>One of the key features of CSS is its ability to apply styles to multiple elements simultaneously. By using classes and IDs, you can create reusable styles and apply them to different elements throughout your website. This promotes consistency and makes it easier to maintain and update the styling of your web pages.</p><p>CSS also enables responsive web design, allowing you to create websites that adapt to different screen sizes and devices. Media queries in CSS enable you to apply different styles based on the device’s characteristics, such as screen width or orientation. This ensures that your website looks great and functions well on desktop computers, tablets, and mobile devices.</p><p>In addition to basic styling, CSS supports advanced techniques such as animations, transitions, and transformations. You can create smooth transitions between different states of elements, add eye-catching animations, and transform elements in 2D or 3D space. These capabilities enhance the interactivity and visual appeal of your web pages.</p><p>CSS is continually evolving, with new features and modules being added to the specification. This allows web designers and developers to push the boundaries of what can be achieved with CSS. It’s essential to stay up to date with the latest developments and best practices to make the most of CSS in your web projects.</p><p>In conclusion, CSS is a powerful technology that enables web designers and developers to control the visual presentation of web pages. With CSS, you can create attractive layouts, apply custom styles, and make your websites responsive and interactive. By mastering CSS, you can take your web development skills to the next level and create compelling user experiences.</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> CSS tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hello </tag>
+            
+            <tag> CSS </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Hello JavaScript</title>
+        <link href="/hexo-theme-arch-sample/en/hello-javascript/"/>
+        <url>/hexo-theme-arch-sample/en/hello-javascript/</url>
+        
+        <content type="html"><![CDATA[<p>JavaScript is a dynamic and versatile programming language that plays a crucial role in modern web development. Created by Brendan Eich in the mid-1990s, JavaScript was initially designed to add interactivity to web pages. However, it has since evolved into a powerful language that can be used for both client-side and server-side development.</p><p>One of the key features of JavaScript is its ability to run directly in web browsers, allowing developers to create interactive and dynamic web pages. With JavaScript, you can manipulate HTML elements, handle user events, and update content on the fly. This makes JavaScript an essential tool for creating engaging user interfaces and enhancing the user experience.</p><p>JavaScript is also widely used on the server-side, thanks to the development of server-side JavaScript platforms such as Node.js. With Node.js, developers can use JavaScript to build scalable and high-performance server applications. This allows for seamless communication between the client and server, enabling real-time data updates and efficient handling of user requests.</p><p>Another strength of JavaScript is its extensive ecosystem of libraries, frameworks, and tools. Popular frameworks like React, Angular, and Vue.js provide developers with powerful tools for building complex web applications. Additionally, there are numerous libraries available for specific tasks, such as data visualization, animation, and form validation. This rich ecosystem empowers developers to create robust and feature-rich applications with ease.</p><p>JavaScript’s versatility extends beyond web development. With frameworks like React Native and Electron, developers can use JavaScript to build mobile apps and desktop applications. This allows for code reuse and accelerated development cycles, making JavaScript a valuable language for cross-platform development.</p><p>In conclusion, JavaScript is a dynamic and versatile programming language that revolutionizes web development. Its ability to run in web browsers, along with its server-side capabilities, makes it a powerful tool for creating interactive and dynamic web applications. With its extensive ecosystem and cross-platform capabilities, JavaScript continues to be a popular choice for developers seeking to build modern and innovative software solutions.</p>]]></content>
+        
+        
+        <categories>
+            
+            <category> JavaScript tutorial </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hello </tag>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Hello World</title>
+        <link href="/hexo-theme-arch-sample/en/Hello-World/"/>
+        <url>/hexo-theme-arch-sample/en/Hello-World/</url>
+        
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        
+        
+        <categories>
+            
+            <category> Hexo Getting Started </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Introduction </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    
+    
+    
+</search>
